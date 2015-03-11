@@ -105,5 +105,6 @@ libraryDependencies ++= Seq(
   "log4j" % "log4j" % "1.2.17",
   "tw.edu.ntu.csie" % "libsvm" % "3.17",
   "org.yaml" % "snakeyaml" % "1.14",
+  "org.biopax.paxtools" % "paxtools-core" % "4.3.0",
   "jline" % "jline" % "2.12"
 )
