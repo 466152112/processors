@@ -80,9 +80,9 @@ pomExtra := (
 // end publishing settings
 //
 
-// we need this to find the snapshot releases for BANNER
+// we need this to find the Paxtools releases repository
 resolvers +=
-  "Sonatype OSS Snapshots" at "https://oss.sonatype.org/content/repositories/snapshots"
+  "BioPax Releases" at "http://www.biopax.org/m2repo/releases/"
 
 libraryDependencies ++= Seq(
   "org.scala-lang" % "scala-reflect" % "2.11.5",
